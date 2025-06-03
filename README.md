@@ -1,13 +1,16 @@
-# MissedCallsSetup
-# Clone the repository
+# Missed Calls Setup Steps
+1. Clone the repository
 git clone <your-repo-url>
 cd <repo-directory>
 
-# Start the environment
+2.Start the environment
 docker compose up -d
 
-# Access ClickHouse
+3. Access ClickHouse
 docker exec -it clickhouse clickhouse-client
 
-# Access Kafka tools
-docker exec -it kafka /opt/kafka/bin/kafka-topics.sh --list --bootstrap-server kafka:9092
+4. Access Kafka
+docker exec -it kafka-4 /opt/kafka/bin/kafka-topics.sh --list --bootstrap-server localhost:9092
+
+5. Access Clickhouse
+docker exec -it clickhouse-server clickhouse-client
