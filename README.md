@@ -1,4 +1,5 @@
 # Missed Calls Setup Steps
+Pre-requisites: Docker and docker-compose must be installed.
 1. Clone the repository  
    `git clone https://github.com/shivangiphilic/MissedCallsSetup`  
    `cd MissedCallsSetup`
