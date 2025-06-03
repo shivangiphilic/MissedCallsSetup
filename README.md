@@ -1,7 +1,7 @@
 # Missed Calls Setup Steps
-1. Clone the repository
-git clone (https://github.com/shivangiphilic/MissedCallsSetup)
-cd MissedCallsSetup
+1. Clone the repository  
+git clone (https://github.com/shivangiphilic/MissedCallsSetup)  
+cd MissedCallsSetup  
 
 2.Start the environment
 docker compose up -d
