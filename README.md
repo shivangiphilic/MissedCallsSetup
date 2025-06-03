@@ -3,7 +3,7 @@
 git clone (https://github.com/shivangiphilic/MissedCallsSetup)  
 cd MissedCallsSetup  
 
-2.Start the environment
+  2.Start the environment
 docker compose up -d
 
 3. Access ClickHouse
